@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578344999169.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3360962379",
+    "id" : "4C2C0E33",
+    "lastKnownWriteTime" : 1578671578,
+    "last_content_update" : 1578671578221,
+    "path" : "~/r_code/presentation_D/networkD3_test.R",
+    "project_path" : "networkD3_test.R",
+    "properties" : {
+        "cursorPosition" : "333,0",
+        "scrollLine" : "319",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,85 @@
+slide.title-slide {
+  background-image: url(health-1.PNG);
+  background-size: 100% 100%;
+}
+
+slide {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90% 100%;
+  background-image: url(images/Picture2.jpg);
+}
+
+
+
+/* The following changes the format of the h1 h2 and p of the first slide*/
+  
+  
+slide.title-slide hgroup h1{
+    /*font-weight:bold;*/
+    font-size:25pt;
+    color:#000000;  /* Golden colour*/
+    margin-left: -10px; /* the more negative the more the title moves to the left*/
+    margin-Right: 800px;
+    bottom:80%; /* 80*/
+    margin-Bottom: 60px;
+  }
+
+
+slide.title-slide hgroup h2{
+  color:#15334F;   /* Blue colour*/
+  letter-spacing:1.5px;
+  font-size:18pt;
+  margin-left: -5px;
+  line-height:18pt;
+  margin-Bottom: 60px;
+  /*font-weight:bold;*/
+    /*font-style: normal;*/
+    /*margin-Bottom: 100px;*/
+}
+
+slide.title-slide p{
+  color:#000000;   /* Blue colour*/
+  font-size:12pt;
+  font-weight:bold;
+  margin-Bottom: 10px; /* 100px*/
+  text-align: center;
+  margin-left: -60px;
+}
+
+
+
+/* The following changes the format of the slide titles*/
+  
+h2 {
+  color:#660000;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-Right: 100px;
+  text-align: left;	
+}
+
+/* The following changes the format of the slide paragraphs*/
+  
+body slides > slide{
+  height: 660px;
+  width: 1300px;
+  margin-top: -330px; /* -350px; */
+    /* 	margin-Right: 500px; */
+  color:#15334F; 	
+}
+
+
+
+/* The following changes the format of the content of a specific slide, colour and size
+we define a class and then we call it as {#nextsteps .emphasized} at the right after
+  each slide title in our presentation */
+    
+#nextsteps {
+  color:black;
+  margin-Right: 500px;
+}
+
+.emphasized {
+  font-size: 1.2em;
+}
